@@ -81,7 +81,4 @@ No internet or API budget? Set `PROVIDER=ollama` in `server/.env` after `ollama 
 | **Prototype** | This repo. Working chat UI, homepage, real UMP data, live Claude-backed conversation. |
 | **Impact** | Every student with a phone gets a faster path to resources that already exist. |
 | **Feasibility** | The AI is the easy part — the real requirement is a human (the Sustainability Office) who keeps `campus-data.json` current. |
-
-See [`PROJECT.md`](./PROJECT.md) for the full write-up.
-
 ---
