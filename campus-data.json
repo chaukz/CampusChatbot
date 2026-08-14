@@ -1,0 +1,205 @@
+{
+  "university": {
+    "name": "University of Mpumalanga",
+    "short_name": "UMP",
+    "motto": "Creating Opportunities",
+    "founded": 2014,
+    "campuses": [
+      { "id": "mbombela", "name": "Mbombela Campus", "location": "Mbombela, Mpumalanga" },
+      { "id": "siyabuswa", "name": "Siyabuswa Campus", "location": "Siyabuswa, Mpumalanga" }
+    ],
+    "source_note": "Building names/numbers below are sourced from UMP's official 'Building Codes and Names (Both Campuses)' asset register (report run 08-Apr-2024). This tells us what buildings exist and their function — it does NOT tell us exact bin/fountain/shuttle-stop locations, so recycling_points, water_refill_stations and shuttle_routes still need a walk-and-confirm pass before demo. Use real building names from campus_buildings when describing locations."
+  },
+
+  "campus_buildings": {
+    "mbombela": [
+      { "code": "1101", "name": "Main Gate House", "note": "Mbombela East Campus main entrance" },
+      { "code": "1102", "name": "Building 13 Dining Facility", "note": "NBP0013, L013" },
+      { "code": "1103", "name": "Building 13 Student Residence", "note": "NBP0013, L013" },
+      { "code": "1104", "name": "Squash Courts" },
+      { "code": "1106", "name": "ICT & Security Building", "note": "NBP0019" },
+      { "code": "1108", "name": "Loskop Ladies Residence", "note": "Huis Loskop" },
+      { "code": "1109", "name": "De Kaap Residence", "note": "Huis De Kaap" },
+      { "code": "1110", "name": "Onderberg Mens Residence", "note": "Huis Onderberg" },
+      { "code": "1111", "name": "Letaba Mens Residence", "note": "Huis Letaba" },
+      { "code": "1113", "name": "3rd Year Hostel & Flats", "note": "AKA 'Uptown'" },
+      { "code": "1114", "name": "Lecturer Flat WS1" },
+      { "code": "1115", "name": "Lecturer Flat WS2" },
+      { "code": "1116", "name": "Great Hall & Dining Hall" },
+      { "code": "1117", "name": "ICT Building", "note": "NBP0003, L005" },
+      { "code": "1118", "name": "IT Lab / Lecture Halls", "note": "Old Library / Lecture Halls / Server Room / IT Laboratory" },
+      { "code": "1119", "name": "Old Admin Block", "note": "Original Admin Block" },
+      { "code": "1120", "name": "Small Office Block", "note": "Behind Lecture Venues" },
+      { "code": "1126", "name": "Multi-Purpose Teaching Block", "note": "NBP0006, Building L009" },
+      { "code": "1127", "name": "Chiller Plant", "note": "SIP0005" },
+      { "code": "1135", "name": "Switching Station A", "note": "11kV Switching and Generator Building (LX01)" },
+      { "code": "1136", "name": "Switching Station B", "note": "11kV Switching Station and MLM Metering" },
+      { "code": "1137", "name": "Archive Building", "note": "NBP0021" },
+      { "code": "1138", "name": "Academic Archive Building", "note": "Near the Archive Building" },
+      { "code": "1139", "name": "Building 4", "note": "L004" },
+      { "code": "1140", "name": "Building 1 Block A Male Residence", "note": "L001" },
+      { "code": "1141", "name": "Building 1 Block B Residence" },
+      { "code": "1142", "name": "Building 1 Block C Ladies Residence" },
+      { "code": "1143", "name": "Building 1 Block D Mens Residence" },
+      { "code": "1144", "name": "Building 1 Block E Ladies Residence" },
+      { "code": "1145", "name": "Building 1 Block F Residence" },
+      { "code": "1146", "name": "Building 6 Block B", "note": "L006" },
+      { "code": "1147", "name": "Building 6 Block A", "note": "L006" },
+      { "code": "1148", "name": "Building 6 Block F", "note": "L006" },
+      { "code": "1149", "name": "Building 6 Block C", "note": "L006" },
+      { "code": "1150", "name": "Building 6 Block D", "note": "L006" },
+      { "code": "1151", "name": "Building 6 Block E", "note": "L006" },
+      { "code": "1152", "name": "Building 6 Block H", "note": "L006" },
+      { "code": "1153", "name": "Building 7", "note": "L007, NBP0004" },
+      { "code": "1154", "name": "Science Research Facility, Block A", "note": "NBP0012" },
+      { "code": "1155", "name": "Science Research Facility, Block B/E", "note": "NBP0012" },
+      { "code": "1156", "name": "Science Research Facility, Block F/G", "note": "NBP0012" },
+      { "code": "1157", "name": "Building 2 Executive Offices", "note": "NBP0001 / L002" },
+      { "code": "1158", "name": "Library & Information Services", "note": "Thoko Mayekiso Library" },
+      { "code": "1159", "name": "Multi-Purpose Admin Block East", "note": "NBP0007 / L010" },
+      { "code": "1160", "name": "Multi-Purpose Admin Block West", "note": "NBP0007 / L010" },
+      { "code": "1161", "name": "Hospitality, Tourism and UMP Hotel", "note": "NBP0005, Building L008" },
+      { "code": "1162", "name": "Wellness & Conference Centre", "note": "NBP0008, L011" },
+      { "code": "1165", "name": "Temporary Gatehouse", "note": "Lower Campus" },
+      { "code": "1208", "name": "Security Wendy House" },
+      { "code": "1209", "name": "New Wendy House at Sports Field" },
+      { "code": "1210", "name": "Building 12", "note": "L012, NBP0009 — Old DArdLEA Building" },
+      { "code": "1211", "name": "Entrepreneurship Centre Admin Building" },
+      { "code": "1212", "name": "Entrepreneurship Centre, Building 2" },
+      { "code": "1213", "name": "Veterinary Lab" },
+      { "code": "1233", "name": "Sports Ablution A" },
+      { "code": "1234", "name": "Sports Tuck Shop" },
+      { "code": "1235", "name": "Sports Ablution B" },
+      { "code": "1236", "name": "Sports Club House" },
+      { "code": "1237", "name": "Steel Pavilions", "note": "Sports Field" },
+      { "code": "1238", "name": "Irrigation Laboratory", "note": "NBP0022" },
+      { "code": "1245", "name": "South Campus Student Drop-Off and Taxi Rank", "note": "Built 2024 — key transport hub" },
+      { "code": "1246", "name": "South Campus Entry Gate", "note": "Built 2024" },
+      { "code": "1335", "name": "Waste Area", "note": "Office, Green — general waste storage & collection point for the farm/lower campus section" },
+      { "code": "1336", "name": "Switching Station C", "note": "Hill Campus" },
+      { "code": "1401", "name": "Switching Station D", "note": "Orchard Campus" },
+      { "code": "1500", "name": "Virtual Exam Room" }
+    ],
+    "mbombela_note": "This is the functionally-relevant subset of the full register (admin, academic, residence, dining, sports, transport and utility buildings). Numerous individual staff houses, demolished structures, and decommissioned Parkhome offices were omitted for relevance — see the source PDF for the complete list if needed.",
+
+    "siyabuswa": [
+      { "code": "3000", "name": "Gate House" },
+      { "code": "3002", "name": "Pavilion Gate House" },
+      { "code": "3005", "name": "Admin Building" },
+      { "code": "3006", "name": "Didactic Lab" },
+      { "code": "3007", "name": "Lecture Halls & Classrooms" },
+      { "code": "3008", "name": "Lecture Hall" },
+      { "code": "3009", "name": "Art Studio" },
+      { "code": "3010", "name": "Library & Computer Lab" },
+      { "code": "3011", "name": "Main Hall & Exam Venue" },
+      { "code": "3014", "name": "Classroom Block", "note": "Classrooms and Laboratories" },
+      { "code": "3017", "name": "Classroom Block" },
+      { "code": "3018", "name": "Micro Teaching Office" },
+      { "code": "3019", "name": "Agric. Science Lab" },
+      { "code": "3020", "name": "Teacher Training & Offices" },
+      { "code": "3023", "name": "Pavilion" },
+      { "code": "3026", "name": "Garage & Service Centre" },
+      { "code": "3027", "name": "Nofanezile Female Residence" },
+      { "code": "3029", "name": "Student Cafeteria & Gym" },
+      { "code": "3031", "name": "Mashemong Female Residence" },
+      { "code": "3032", "name": "Enqabeni Female Residence" },
+      { "code": "3033", "name": "Kitchen and Dining Rooms" },
+      { "code": "3034", "name": "Emthonjweni Mixed Residence" },
+      { "code": "3035", "name": "Naape Monare Mixed Residence" },
+      { "code": "3036", "name": "Ntokozweni Mixed Residence" },
+      { "code": "3037", "name": "Staff Housing" }
+    ]
+  },
+
+  "recycling_points": {
+    "note": "PLACEHOLDER for exact bin locations/materials/schedule — confirm with Campus Facilities. Anchored to REAL buildings from the asset register, which is a big improvement on guessing building names.",
+    "stations": [
+      {
+        "id": "recycle-waste-area",
+        "location": "Waste Area (Building 1335) — general waste storage & collection point, lower/farm campus section",
+        "materials_accepted": ["general waste", "confirm: plastic/paper/glass separation"],
+        "collection_schedule": "confirm with Campus Facilities",
+        "managed_by": "Campus Facilities"
+      },
+      {
+        "id": "recycle-library",
+        "location": "Library & Information Services (Thoko Mayekiso Library, Building 1158)",
+        "materials_accepted": ["confirm — likely paper/cardboard given library setting"],
+        "collection_schedule": "confirm with Campus Facilities",
+        "managed_by": "Campus Facilities"
+      },
+      {
+        "id": "recycle-great-hall",
+        "location": "Great Hall & Dining Hall (Building 1116)",
+        "materials_accepted": ["confirm — likely plastic bottles/cans given dining use"],
+        "collection_schedule": "confirm with Campus Facilities",
+        "managed_by": "Campus Facilities"
+      },
+      {
+        "id": "recycle-res-cluster",
+        "location": "Building 1 residence cluster (Blocks A-F, 1140-1145)",
+        "materials_accepted": ["confirm with Residence Life"],
+        "collection_schedule": "confirm with Residence Life",
+        "managed_by": "Residence Life"
+      }
+    ]
+  },
+
+  "water_refill_stations": {
+    "note": "PLACEHOLDER — no source data on refill stations exists in the asset register (it only lists buildings, not fixtures). Confirm actual working refill points before demo.",
+    "stations": [
+      { "id": "refill-library", "location": "Library & Information Services (Building 1158)", "status": "confirm before demo" },
+      { "id": "refill-great-hall", "location": "Great Hall & Dining Hall (Building 1116)", "status": "confirm before demo" },
+      { "id": "refill-res-1", "location": "Building 1 residence cluster (Blocks A-F)", "status": "confirm before demo" },
+      { "id": "refill-multipurpose-admin", "location": "Multi-Purpose Admin Block East/West (Building 1159/1160)", "status": "confirm before demo" }
+    ]
+  },
+
+  "shuttle_routes": {
+    "note": "PLACEHOLDER for schedule/frequency — but now anchored to REAL, recently-built transport infrastructure confirmed in the asset register (South Campus Student Drop-Off and Taxi Rank, built 2024). Confirm timetable with Campus Protection Services / Student Affairs.",
+    "routes": [
+      {
+        "id": "route-town",
+        "name": "Campus to Mbombela CBD",
+        "key_stop": "South Campus Student Drop-Off and Taxi Rank (Building 1245, near South Campus Entry Gate, Building 1246)",
+        "frequency": "confirm before demo",
+        "operating_hours": "confirm before demo",
+        "fare": "confirm before demo"
+      },
+      {
+        "id": "route-internal",
+        "name": "Internal Campus Loop",
+        "key_stops": ["Main Gate House (1101)", "South Campus Entry Gate (1246)", "Library & Information Services (1158)", "Great Hall & Dining Hall (1116)"],
+        "frequency": "confirm before demo",
+        "operating_hours": "confirm before demo",
+        "fare": "confirm before demo"
+      }
+    ]
+  },
+
+  "green_initiatives": {
+    "note": "PLACEHOLDER — confirm active initiatives with Student Affairs / a Green Campus committee if one exists at UMP.",
+    "initiatives": [
+      {
+        "id": "green-campus-cleanup",
+        "name": "Campus Clean-Up Drive",
+        "description": "Student volunteers and staff collect litter and clear overgrown areas across campus.",
+        "how_to_join": "confirm contact - likely SRC office or Student Affairs"
+      },
+      {
+        "id": "green-waste-management",
+        "name": "General Waste Storage & Collection",
+        "description": "Waste Area (Building 1335) serves as the designated general waste storage and collection point for the lower/farm campus section.",
+        "how_to_join": "N/A - infrastructure note"
+      }
+    ]
+  },
+
+  "sample_faq": [
+    { "question": "Where can I recycle plastic bottles?", "answer_hint": "Point to recycling_points stations, note materials still need confirming" },
+    { "question": "Is there a water refill station near the library?", "answer_hint": "refill-library - flag as needing confirmation" },
+    { "question": "Where do I catch the shuttle or taxi into town?", "answer_hint": "South Campus Student Drop-Off and Taxi Rank (Building 1245)" },
+    { "question": "How do I get involved in sustainability on campus?", "answer_hint": "List green_initiatives" },
+    { "question": "Is there a shuttle to the airport?", "answer_hint": "Not in dataset - assistant should say it doesn't have this information rather than guessing." }
+  ]
+}
