@@ -85,5 +85,3 @@ No internet or API budget? Set `PROVIDER=ollama` in `server/.env` after `ollama 
 See [`PROJECT.md`](./PROJECT.md) for the full write-up.
 
 ---
-
-Built in two hours. Grounded, not guessing.
